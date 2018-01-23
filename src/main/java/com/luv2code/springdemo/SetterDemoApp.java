@@ -11,6 +11,7 @@ public class SetterDemoApp {
 				new ClassPathXmlApplicationContext("applicationContext.xml");
 		
 		// retrieve bean from spring container
+		//cricket coach has 4 get methods
 		CricketCoach theCoach = context.getBean("myCricketCoach", CricketCoach.class);
 		
 		// call methods on the bean
